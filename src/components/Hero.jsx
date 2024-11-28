@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react'
 import Button from "./Button"
+import { TiLocationArrow } from 'react-icons/ti'
 
 const Hero = () => {
     const [currentIndex, setCurrentIndex] = useState(1)
@@ -72,9 +73,20 @@ const Hero = () => {
                     Enter the Meta Realm of Gaming <br />
                     Unleash your true potential
                 </p>
-                <Button/>
+                <Button
+                    id='watch-trailer'
+                    title="Watch Trailer"
+                    className='bg-blue-100 text-blue-75'
+                    leftIcon = {<TiLocationArrow />}
+                    containerClass = "!bg-yellow-300 flex-center gap-1"
+                    // exclamatory mark is used to apply utility classes
+                />
             </div>
         </div>
+
+        <h1 className='special-font hero-heading absolute bottom-5 right-5  text-black'>
+            Re<b>a</b>lm
+        </h1>
 
     </div>
   )
