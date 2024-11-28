@@ -11,7 +11,7 @@ export default {
         general: ['general', 'sans-serif'],
         'circular-web': ['circular-web', 'sans-serif'],
         'robert-medium': ['robert-medium', 'sans-serif'],
-        'robert-bold': ['robert-bold', 'sans-serif'],
+        'robert-regular': ['robert-regular', 'sans-serif'],
       },
       colors: {
         blue: {
